@@ -1,0 +1,31 @@
+Model: rnn
+Best Validation Accuracy: 0.5659
+Best Validation F1-Score: 0.5641
+Final Validation Accuracy: 0.5659
+Final Validation F1-Score: 0.5641
+
+Detailed Classification Report:
+                                            precision    recall  f1-score   support
+
+                     Above ear - pull hair     0.6593    0.6953    0.6768       128
+                        Cheek - pinch skin     0.5347    0.6016    0.5662       128
+                     Drink from bottle/cup     0.9259    0.7812    0.8475        32
+                       Eyebrow - pull hair     0.3778    0.5312    0.4416       128
+                       Eyelash - pull hair     0.4144    0.3594    0.3849       128
+Feel around in tray and pull out an object     0.7812    0.7812    0.7812        32
+                  Forehead - pull hairline     0.6615    0.6719    0.6667       128
+                        Forehead - scratch     0.6852    0.5781    0.6271       128
+                            Glasses on/off     0.8621    0.7812    0.8197        32
+                         Neck - pinch skin     0.5106    0.3750    0.4324       128
+                            Neck - scratch     0.5000    0.5469    0.5224       128
+                       Pinch knee/leg skin     0.2857    0.3750    0.3243        32
+                 Pull air toward your face     0.6889    0.3229    0.4397        96
+                     Scratch knee/leg skin     0.2727    0.1875    0.2222        32
+                             Text on phone     0.8359    0.8359    0.8359       128
+                                Wave hello     0.7089    0.5833    0.6400        96
+                         Write name in air     0.4437    0.7474    0.5569        95
+                         Write name on leg     0.2800    0.2188    0.2456        32
+
+                                  accuracy                         0.5659      1631
+                                 macro avg     0.5794    0.5541    0.5573      1631
+                              weighted avg     0.5815    0.5659    0.5641      1631
